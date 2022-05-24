@@ -1,0 +1,21 @@
+body {
+    background-image: url(../machosprovedor.jpg);
+}
+
+fieldset{
+    border: 2px solid;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(0, 0, 0);
+    background-color: beige;
+}
+legend{
+    color: rgb(0, 0, 0);
+    background-color: beige;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form1.css">
+    <title>Cadastro de Clientes</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend><b>Cadastro de Clientes</b></legend>
+        <div class="inputBox">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" name="nome" id="nome" class="inputuser" required>
+        </div>
+        <br>
+        <div class="inputbox">
+        <p>Escolha seu Sexo</p>
+            <input type="radio" id="Masculino" id="genero" value="Masculino" required>
+            <label for="Masculino">Masculino</label><br>
+            <input type="radio" id="Feminino" id="genero" value="Feminino" required>
+            <label for="Feminino">Feminino</label><br>
+            <input type="radio" id="Outros" id="genero" value="Outros" required>
+             <label for="Outros">Outros</label>
+        </div>
+        <br>
+        <div class="inputBox">
+            <label for="Telefone">Telefone:</label>
+            <input type="tel" name="Telefone" id="Telefone" class="inputuser" required>
+        </div>
+        <br>
+        <div class="inputBox">
+            <label for="data de nascimento">Data de Nascimento:</label>
+            <input type="date" name="Data de Nascimento" id="Data de Nascimento" class="inputuser" required>
+        </div>
+        <br>
+        <div class="inputBox">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" class="inputuser" required>
+        </div>
+        <br>
+        <div class="inputBox">
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password" class="inputuser" required>
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </fieldset>
+    </form>
+</body>
+</html>

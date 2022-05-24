@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form3.css">
+    <title>Formulário Elaborado</title>
+</head>
+<body>
+    <div>
+        <h1>Formulário</h1>
+        <br>
+    </div>
+    <form>
+    <fieldset>
+        <legend><b>Dados pessoais</b></legend>
+        <div class="inputBox">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" class="inputuser" required>
+        </div>
+        <div class="inputBox">
+            <label for="endereço">Endereço:</label>
+            <input type="text" name="Endereço" id="Endereço" class="inputuser" required>
+        </div>
+        <div class="inputBox">
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="nome" id="nome" class="inputuser" required>
+        </div>
+        <div class="inputBox">
+            <label for="Série">Estado:</label>
+            <select id="Série" required>
+            <option>Acre(AC)</option>
+            <option>Alagoas(AL)</option>
+            <option>Amapá(AP)</option>
+            <option>Amazonas(AM)</option>
+            <option>Bahia(BA)</option>
+            <option>Ceará</option>
+            <option>Distrito Federal</option>
+            <option>Espírito Santo</option>
+            <option>Goiás</option>
+            <option>Maranhão</option>
+            <option>Mato Grosso</option>
+            <option>Mato Grosso do Sul</option>
+            <option>Minas Gerais</option>
+            <option>Paraíba</option>
+            <option>Paraná</option>
+            <option>Pernambuco</option>
+            <option>Piauí</option>
+            <option>Rio de Janeiro</option>
+            <option>Rio Grande do Norte </option>
+            <option>Rio Grande do Sul </option>
+            <option>Rondônia</option>
+            <option>Roraima</option>
+            <option>Santa Catarina</option>
+            <option>São Paulo</option>
+            <option>Sergipe</option>
+            <option>Tocantins</option>
+            </select>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend><b>Dados Profissionais</b></legend>
+        <legend>Natureza do Cargo</legend>
+        <div class="inputbox">  
+            <input type="radio" id="gerencia" id="gerencia" value="Gerencia" required>
+            <label for="gerencia">Gerência</label>
+            <input type="radio" id="financeiro" id="financeiro" value="Financeiro" required>
+            <label for="financeiro">Financeiro</label>
+            <input type="radio" id="recepção" id="recepção" value="Recepção" required>
+            <label for="recepção">Recepção</label>
+            <input type="radio" id="administrativo" id="administrativo" value="Administrativo" required>
+            <label for="administrativo">Administrativo</label>
+            <input type="radio" id="juridico" id="juridico" value="Juridico" required>
+            <label for="juridico">Jurídico</label>
+        </div>
+        <br>
+        <div>
+            <label for="Atividades">Área de interesse:</label>
+            <br>
+            <input type="checkbox" id="computação" name="computação" value="Computação"
+            <label for="computação">Computação</label>
+            <input type="checkbox" id="biologia" name="biologia" value="Biologia"
+            <label for="biologia">Biologia</label>
+            <input type="checkbox" id="meio" name="meio" value="Meio Ambiente"
+            <label for="meio">Meio Ambiente</label>
+            <input type="checkbox" id="engen" name="engen" value="Engenharia"
+            <label for="engen">Engenharia</label>
+            <input type="checkbox" id="hist" name="hist" value="História"
+            <label for="hist">História</label>
+            <br><br>
+            <label for="mini">Mini-Curriculo:</label>
+            <textarea rows="10" style="width: 26em;" id="mini" name="mini"></textarea>
+        </div>
+    </fieldset>
+    <br>
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
